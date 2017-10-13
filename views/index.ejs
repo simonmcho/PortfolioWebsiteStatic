@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include partials/head.ejs %>
+  <body>
+    <% include partials/nav.ejs %>
+
+    <!-- Header Section -->
+    <header class="masterhead">
+        <div class="intro-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h1 class="brand-heading">Simmonson's Portfolio</h1>
+                <p class="intro-text">Showcasing all his web development skills since 2017!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <section>
+      <div class="row">
+        <div class="col-md-3">
+            <div class="dice-game">
+              <div id="dice-side-1" class="dice">0</div>
+              <div id="dice-side-2" class="dice">0</div>
+              <button type="button" class="dice-roll">Roll!</button>
+              <h2 id="status"></h2>
+            </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary" class="content-section text-center">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <h2 id="summary-header">
+                  Quick Overview
+                </h2>
+                  <p>Simon (simmonson) found a passion for development after
+
+                    he saw the potential for software to improve the lives
+
+                    of people in everyday situations. 
+
+                    He began to study web development and quickly sketched out 
+
+                    his ideas, and now he's on a journey to deliver products
+
+                    that can help people in their homes, workplace, school
+
+                    and just about anywhere else!
+                  </p>
+                  <button class="btn btn-circle js-scroll-trigger">
+                    <a href="#">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                  </button>
+              </div><!--/col-md-6-->        
+          </div><!-- /row -->
+        </div><!--container-->
+      </section>
+
+    <% include partials/footer.ejs %>
+  </body>
+</html>
+
