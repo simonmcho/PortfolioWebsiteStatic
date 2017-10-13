@@ -54,10 +54,33 @@ body {
 /************************************
 * Dice Game
 *************************************/
-.dice-game {
-    border: 1px solid black;
-    height: 300px;
+
+.col-md-3 {
+    border:1px green solid;
 }
+
+#card {
+    padding-top: 40px;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 90px;
+    border:1px red solid;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5;
+
+    &:before {
+        content:attr(data-card);
+        display:block;
+      }
+
+    &:after{
+        margin-top: 30px;
+        content:attr(data-suit);
+    }
+}
+
 
 
 
