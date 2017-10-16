@@ -18,9 +18,10 @@ To Do:
 - Upload on to server for public showcase
   
   
-Time Spent on Project: 4 hours
+Time Spent on Project: 6 hours
 Objective: 
 - Showcase HTML, CSS, JavaScript Skills for RedStamp Junior Front-End Developer Position
+- Practice Angular
 - Practice Server side scripting with templates
 - Record technical obstacles on this website
 
