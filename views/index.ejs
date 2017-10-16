@@ -12,58 +12,114 @@
               <div class="col-lg-12 mx-auto">
                 <h1 class="brand-heading">Simmonson's Portfolio</h1>
                 <p class="intro-text">Showcasing all his web development skills since 2017!</p>
+                <p>(This site is under construction, but it is meant to showcase a small example of 
+                  <br>
+                  Simon's front-end skills for Redstamp's Junior Front-End Developer position.)</p>
               </div>
             </div>
           </div>
         </div>
     </header>
 
+    <!-- Summary Section -->
+    <section id="summary" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h2 id="summary-header">
+                Quick Overview
+              </h2>
+                <p>Simon (simmonson) found a passion for development after
+
+                  he saw the potential for software to improve the lives
+
+                  of people in everyday situations.
+
+                  He began to study web development and quickly sketched out
+
+                  his ideas, and now he's on a journey to deliver products
+
+                  that can help people in their homes, workplace, school
+
+                  and just about anywhere else!
+                </p>
+                <button class="btn btn-circle js-scroll-trigger">
+                  <a href="#">
+                      <i class="fa fa-angle-double-down animated"></i>
+                  </a>
+                </button>
+            </div><!--/col-md-6-->
+        </div><!-- /row -->
+      </div><!--container-->
+    </section>
+
     <!--games -->
     <div class="games">
       <!--games-header-->
       <div class="games-header">
         <h3>
-          Before you check out my website, play this JavaScript game!
+          While checking out my website, play a quick game of Over/Under!
         </h3>
       </div><!--/games-header-->
 
       <!--card game-->
       <section>
         <div class="row">
-          <div class="col-md-3" id="dice-game">
-            <h3>Deal!</h3>
-             <div id="card"></div>
-             You chose:
-             <div id="choice-status">
-             None. Choose under, same, or over.
-             </div>
-             <br class="line">
-             <div class="choice" id="under">
-               Under
-             </div>
-             <div class="choice" id="same">
-               Same
-             </div>
-             <div class="choice" id="over">
-               Over
-             </div>
-             <div class="small-btn" id="bet-less">
-               Bet Less
-             </div>
-             <div class="small-btn" id="bet-more">
-               Bet More
-             </div>
-             <!--money and bets -->
-             <div class="">
-              <div class="money-and-bets" id="money">
-              </div>
-              <div class="money-and-bets" id="bet">
-              </div>
-            </div><!--money and bets -->
-            <div class="cardgame-status">
+          <div class="col-md-4 col-md-offset-4" id="dice-game">
+
+            <div class="card-action">
+
+              <span id="deal">Deal!</span>
+
+              <div class="choice">
+                <div id="over">
+                  <h3>Over</h3>
+                </div>
+                <div id="same">
+                  <h3>Same</h3>
+                </div>
+                <div id="under">
+                  <h3>Under</h3> 
+                </div>
+              </div> 
+
             </div>
-          </div>
-        </div>
+           
+            <div id="card"></div>
+            <!--Card Game Info -->
+            <div class="card-game-info">
+              You chose:
+              <div id="choice-status">
+              None. Choose under, same, or over.
+              </div>
+              <br class="line">
+
+              <!--Bets and Status-->
+              <div class="bets-and-status">
+                <div class="bet-btn" id="bet-more">
+                    Bet More
+                </div>
+                <div class="bet-btn" id="bet-less">
+                    Bet Less
+                </div>
+                <!--money and bets -->
+                <div class="money-and-bets" id="money">
+                </div>
+                <div class="money-and-bets" id="bet">
+                </div>
+                <!--money and bets -->
+
+                <!--cardgame status-->
+                <div class="cardgame-status">
+                  Status: 
+                </div>
+                <!--/cardgame status-->
+              </div> 
+              <!--/Bets and Status-->
+
+              </div><!--/Card Game Info -->
+          </div><!--/col-md-3-->
+        </div><!--/row-->
       </section><!--/card game-->
 
       <section>
@@ -71,37 +127,7 @@
       </section>
     </div><!--/games-->
 
-    <!-- Summary Section -->
-    <section id="summary" class="content-section text-center">
-        <div class="container">
-          <div class="row">
-              <div class="col-md-6 col-md-offset-3">
-                <h2 id="summary-header">
-                  Quick Overview
-                </h2>
-                  <p>Simon (simmonson) found a passion for development after
-
-                    he saw the potential for software to improve the lives
-
-                    of people in everyday situations.
-
-                    He began to study web development and quickly sketched out
-
-                    his ideas, and now he's on a journey to deliver products
-
-                    that can help people in their homes, workplace, school
-
-                    and just about anywhere else!
-                  </p>
-                  <button class="btn btn-circle js-scroll-trigger">
-                    <a href="#">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
-                  </button>
-              </div><!--/col-md-6-->
-          </div><!-- /row -->
-        </div><!--container-->
-      </section>
+   
 
     <% include partials/footer.ejs %>
   </body>
