@@ -9,10 +9,12 @@ body {
     background-color: #ffffff;
 }
 
+br {
+  border: 1px solid $dark-grey;
+}
 /************************************
 * Navbar
 *************************************/
-
 .sc-nav-ul {
     > li {
         > a {
@@ -54,9 +56,11 @@ body {
 /************************************
 * Dice Game
 *************************************/
-
 .col-md-3 {
-    border:1px green solid;
+  h3 {
+    text-align: center;
+    color: blue;
+  }
 }
 
 #card {
@@ -65,7 +69,6 @@ body {
     margin: 0 auto;
     height: 250px;
     width: 90px;
-    border:1px red solid;
     font-size: 50px;
     text-align: center;
     line-height: 1.5;

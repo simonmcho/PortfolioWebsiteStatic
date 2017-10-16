@@ -18,15 +18,58 @@
         </div>
     </header>
 
-    <section>
-      <div class="row">
-        <div class="col-md-3" id="dice-game">
-          <h3>Roll!</h3>    
-           <div id="card"></div>
-        </div>
-      </div>
+    <!--games -->
+    <div class="games">
+      <!--games-header-->
+      <div class="games-header">
+        <h3>
+          Before you check out my website, play this JavaScript game!
+        </h3>
+      </div><!--/games-header-->
 
-    </section>
+      <!--card game-->
+      <section>
+        <div class="row">
+          <div class="col-md-3" id="dice-game">
+            <h3>Deal!</h3>
+             <div id="card"></div>
+             You chose:
+             <div id="choice-status">
+             None. Choose under, same, or over.
+             </div>
+             <br class="line">
+             <div class="choice" id="under">
+               Under
+             </div>
+             <div class="choice" id="same">
+               Same
+             </div>
+             <div class="choice" id="over">
+               Over
+             </div>
+             <div class="small-btn" id="bet-less">
+               Bet Less
+             </div>
+             <div class="small-btn" id="bet-more">
+               Bet More
+             </div>
+             <!--money and bets -->
+             <div class="">
+              <div class="money-and-bets" id="money">
+              </div>
+              <div class="money-and-bets" id="bet">
+              </div>
+            </div><!--money and bets -->
+            <div class="cardgame-status">
+            </div>
+          </div>
+        </div>
+      </section><!--/card game-->
+
+      <section>
+
+      </section>
+    </div><!--/games-->
 
     <!-- Summary Section -->
     <section id="summary" class="content-section text-center">
@@ -40,9 +83,9 @@
 
                     he saw the potential for software to improve the lives
 
-                    of people in everyday situations. 
+                    of people in everyday situations.
 
-                    He began to study web development and quickly sketched out 
+                    He began to study web development and quickly sketched out
 
                     his ideas, and now he's on a journey to deliver products
 
@@ -55,7 +98,7 @@
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                   </button>
-              </div><!--/col-md-6-->        
+              </div><!--/col-md-6-->
           </div><!-- /row -->
         </div><!--container-->
       </section>
@@ -63,4 +106,3 @@
     <% include partials/footer.ejs %>
   </body>
 </html>
-
