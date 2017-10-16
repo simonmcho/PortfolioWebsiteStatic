@@ -1,1 +1,26 @@
-Simmonson's portfolio
+//////////////////////////////////////////////////////////////////
+Simmonson's portfolio Website
+Simon Cho a.k.a. simmonson
+@github: https://github.com/simonmcho
+@stackoverflow: https://stackoverflow.com/users/5869929/simmonson
+@linkedIn: https://www.linkedin.com/in/simon-cho-ba66494b/
+
+V 1.0.0 
+
+//////////////////////////////////////////////////////////////////
+Project Status: Work In Progress (WIP)
+To Do:
+- Optimize Card Game
+- Stylize Card Game
+- Create Blog Posts
+- Write Blog Posts
+- Upload on to server for public showcase
+
+Time Spent on Project: 4 hours
+Objective: 
+- Showcase HTML, CSS, JavaScript Skills for RedStamp Junior Front-End Developer Position
+- Practice Server side scripting with templates
+- Record technical obstacles on this website
+//////////////////////////////////////////////////////////////////
+
+
